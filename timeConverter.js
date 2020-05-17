@@ -3,7 +3,7 @@ function timeConverter(seconds) {
     //add minutes string
     let minutes = seconds/60
     if (minutes%5) {
-        return minutes + (5-(minutes%5)) + ""
+        return minutes + (5-(minutes%5)) + " minutes"
     }
     else {
         return minutes + " minutes"
