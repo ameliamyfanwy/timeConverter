@@ -1,4 +1,4 @@
-const timeConverter= require("../timeConverter");
+const timeConverter= require("../timeConverterfunc");
 
 describe("Rounding function", () => {
     test("Convert 4020 seconds to 70 minutes", () => {
