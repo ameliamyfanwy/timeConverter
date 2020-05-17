@@ -1,6 +1,7 @@
 function timeConverter(seconds) {
     //convert seconds to minutes
-    return seconds / 60
+    //add minutes string
+    return (seconds / 60) + " minutes"
 }
 
 module.exports = timeConverter
