@@ -1,0 +1,23 @@
+{
+  "name": "timeConverter",
+  "version": "1.0.0",
+  "description": "Function to convert number of seconds into a readable time rounded up to the nearest 5 minutes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ameliamyfanwy/timeConverter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ameliamyfanwy/timeConverter/issues"
+  },
+  "homepage": "https://github.com/ameliamyfanwy/timeConverter#readme",
+  "devDependencies": {
+    "jest": "^26.0.1"
+  }
+}
