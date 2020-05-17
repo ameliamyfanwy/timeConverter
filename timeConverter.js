@@ -4,8 +4,6 @@ theButton.onclick = gatherInput;
 function timeConverter(seconds) {
     //convert minutes to seconds
     let minutes = seconds/60
-    console.log(seconds);
-    console.log(minutes);
     //if minutes isn't multiple of 5
     if (minutes%5) {
         return minutes + (5-(minutes%5)) + " minutes"
