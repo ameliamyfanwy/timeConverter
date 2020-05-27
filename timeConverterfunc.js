@@ -1,14 +1,21 @@
 function timeConverter(seconds) {
-    //convert minutes to seconds
-    let minutes = seconds/60
-    //if minutes isn't multiple of 5
-    if (minutes%5) {
-        return minutes + (5-(minutes%5)) + " minutes"
+
+    let hours = Math.floor(seconds/3600)
+    let secondsRemaining = seconds%3600
+    let minutes = secondsRemaining/60
+
+    if (hours === 1) {
+        str = " hour "
     }
-    //if minutes is multiple of 5
     else {
-        return minutes + " minutes"
+        str = " hours "
     }
+    
+    if (minutes%5) {
+        minutes = (minutes + (5-(minutes%5)))
+    }
+
+    return hours + str + minutes + " minutes"
 };
 
 module.exports = timeConverter
